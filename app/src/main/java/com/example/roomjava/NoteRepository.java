@@ -29,7 +29,7 @@ public class NoteRepository {
         new DeleteNoteAsycTask(noteDao).execute(note);
 
     }
-    public void deleteAllNoyes(Note note){
+    public void deleteAllNoyes(){
         new DeleteAllNoteAsycTask(noteDao).execute();
 
     }
